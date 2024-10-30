@@ -1,0 +1,78 @@
+div#mcm2i {
+	display:	table;
+	width: 100%;
+}
+
+div#mcm2i-container {
+	display:	table-cell;
+	vertical-align: top;
+	min-width: 	800px;
+	/*border: 	1px solid #333;*/
+	
+}
+div#mcmc2i-sidebar {
+	display:	table-cell;
+	vertical-align: top;
+	width: 		261px;
+	padding:	0 0 0 20px;
+	/*border: 1px solid #0f0;*/
+}
+
+div#mcm2i_updated,
+div#mcm2i_error {
+	display: none;
+}
+
+
+div#mcm2i form {
+	/*border: 1px solid #333;*/
+}
+
+
+div#mcm2i-image-holder {
+	width: 128px;
+	height: 128px;
+	background-color: #dfdfdf;
+	overflow: hidden;
+	font-weight: normal;
+	text-align: center;
+}
+
+ 
+
+#mcm2i_save_form {
+	/*display: none;*/
+}
+
+input#map_save_name {
+	width: 200px;
+}
+
+img#mcm2i-ajax-saving {
+	display: none;
+	vertical-align: middle;
+	margin-left: 10px;
+	height: 24px;
+}
+
+td#mcm2i-metadata {
+	vertical-align: top;
+}
+
+td#mcm2i-metadata p {
+	width: 200px;
+}
+
+td#mcm2i-metadata span {
+	width: 100px;
+}
+
+td#mcm2i-metadata td{
+	padding: 4px;
+	width: 60px;
+}
+
+td#mcm2i-metadata td code {
+	display: block;
+	width: 140px;
+}
